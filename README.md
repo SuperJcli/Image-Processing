@@ -34,3 +34,7 @@ run li8_18.m get the following result:
 run li8_20.m get the following result:
 
 ![li8_20_result](./img/li820result.jpg)
+
+run li8_22.m get the following result:
+![li8_22_result](./img/li822result.jpg)
+
