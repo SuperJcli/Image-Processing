@@ -1,0 +1,20 @@
+ clear all;
+I=imread('5.bmp');
+I=rgb2gray(I);
+subplot(2,2,1);imshow(I);
+xlabel('(a)原始图像');
+%以自动阈值选择法对图像进行Sobel算子检测
+[BW,thresh]=edge(I,'sobel');
+%返回当前Sobel算子边缘检测的阈值
+disp('Sobel算子自动选择的阈值为：')
+disp(thresh)
+subplot(2,2,2);imshow(BW); 
+xlabel('(b)自动阈值的Sobel算子边缘检测');
+%以阈值为0.06水平方向对图像进行Sobel算子检测
+BW1=edge(I,'sobel',0.06,'horizontal');
+subplot(2,2,3);imshow(BW1);
+xlabel('(c)阈值为0.06水平方向的Sobel算子');
+%以阈值为0.06垂直方向对图像进行Sobel算子检测
+BW2=edge(I,'sobel',0.06,'vertical');
+subplot(2,2,4);imshow(BW2);
+xlabel('(d)阈值为0.06垂直方向的Sobel算子');
