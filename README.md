@@ -20,3 +20,17 @@ run li8_15.m get the following result:
    623   131
    577   131
 ![li8_15_result](./img/li815result.jpg)
+
+run li8_16.m get the following result:
+
+![li8_16_result](./img/li8161result.jpg)
+![li8_16_result](./img/li8162result.jpg)
+
+
+run li8_18.m get the following result:
+
+![li8_18_result](./img/li818result.jpg)
+
+run li8_20.m get the following result:
+
+![li8_20_result](./img/li820result.jpg)
